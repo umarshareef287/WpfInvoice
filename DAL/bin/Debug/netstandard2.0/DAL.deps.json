@@ -1,0 +1,86 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "9da277fcc04a95e51396d5229e8ea5dc8888dea3"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "DAL/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "NLog": "5.3.3",
+          "NLog.Config": "4.7.15",
+          "NLog.Schema": "5.3.3"
+        },
+        "runtime": {
+          "DAL.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "NLog/5.3.3": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.3.3.2683"
+          }
+        }
+      },
+      "NLog.Config/4.7.15": {
+        "dependencies": {
+          "NLog": "5.3.3",
+          "NLog.Schema": "5.3.3"
+        }
+      },
+      "NLog.Schema/5.3.3": {}
+    }
+  },
+  "libraries": {
+    "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "NLog/5.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cy0+hlrUbYu+6mgUsILqCcqlJ2Csqyt2lm8y9T9kE8nhgwl8SvR+LM21QX4nmzFCPiowbrTFYxNF8+gWpy7/HQ==",
+      "path": "nlog/5.3.3",
+      "hashPath": "nlog.5.3.3.nupkg.sha512"
+    },
+    "NLog.Config/4.7.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-njc2NvwgAzEuH609TGO4yqpokcxXFdypHwG3I8hyLYIE4pr+j4KJB4ZhsyODVwkP/n2F2V4uJ24VW4icNyJMcA==",
+      "path": "nlog.config/4.7.15",
+      "hashPath": "nlog.config.4.7.15.nupkg.sha512"
+    },
+    "NLog.Schema/5.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KL9qa3z7uMjKWKQN7Q1eJFYvagBlSEOxZG3hXdiHcvnRLRSvOfC6b8E9FsYfZo4Gy36KZDA/6cu4b3MaaV7cOQ==",
+      "path": "nlog.schema/5.3.3",
+      "hashPath": "nlog.schema.5.3.3.nupkg.sha512"
+    }
+  }
+}
